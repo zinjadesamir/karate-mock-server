@@ -15,5 +15,6 @@ Feature: test karate
     * json obj = request
     * def multi = read('even.js')
     * def output = call multi obj
+    * print output
     * def responseStatus = 200
     * def response = output
